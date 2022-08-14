@@ -15,7 +15,7 @@
 
 ## How does my project look
 
-![netflix survey form](https://github.com/Oz-MT/portfolio-page/blob/master/portfolio-page.gif)
+![portfolio page](https://github.com/Oz-MT/portfolio-page/blob/master/portfolio-page.gif)
 
 ## Objective
 
