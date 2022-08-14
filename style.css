@@ -49,14 +49,15 @@ main .profile {
 main p {
   font-size: 1.8rem;
   text-align: center;
-  max-width: 100rem;
+  max-width: 122rem;
   margin: auto;
   margin-top: 3rem;
+  padding: 0 5%;
 }
 
 main .icons {
   text-align: center;
-  margin: 3.5rem 0 8rem 0;
+  margin: 3rem 0 8rem 0;
 }
 
 main .icons a img {
@@ -70,7 +71,7 @@ main .icons a img {
 .section-1 {
   text-align: center;
   background-color: #ddedff;
-  padding: 5rem 0;
+  padding: 5rem 5%;
 }
 
 .section-1 h2 {
@@ -86,16 +87,92 @@ main .icons a img {
 .section-1 p {
   font-size: 1.8rem;
   text-align: center;
-  max-width: 100rem;
+  max-width: 122rem;
   margin: auto;
-  margin-bottom: 5rem;
+  padding: 0 5%;
 }
 
 .section-1 button {
   background-color: #1e90ff;
   color: #fff;
-  padding: 0.6%;
+  padding: 0.7%;
   font-size: 1.8rem;
   border: none;
-  border-radius: 1rem;
+  border-radius: 0.6rem;
+  margin-top: 5rem;
+  cursor: pointer;
+}
+
+/* .section-2 */
+
+.section-2 {
+  text-align: center;
+  padding: 5rem 5%;
+  background-color: #faebd7;
+}
+
+.section-2 h2 {
+  font-size: 3.6rem;
+  color: #333333;
+}
+
+.section-2 img {
+  max-width: 36rem;
+  border-radius: 1.5rem;
+  margin: 5rem 0;
+}
+
+.section-2 p {
+  font-size: 1.8rem;
+  text-align: center;
+  max-width: 122rem;
+  margin: auto;
+  padding: 0 5%;
+}
+
+.section-2 button {
+  background-color: #333333;
+  color: #fff;
+  padding: 0.7% 1%;
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 0.6rem;
+  margin-top: 5rem;
+  cursor: pointer;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: #fff;
+  background-color: #333333;
+  font-size: 1.8rem;
+}
+
+/* media query */
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 61.5%;
+  }
+}
+@media (max-width: 992px) {
+  html {
+    font-size: 60%;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 58%;
+  }
+}
+@media (max-width: 576px) {
+  html {
+    font-size: 55%;
+  }
+  .section-1 img {
+    max-width: 36rem;
+  }
 }
