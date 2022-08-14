@@ -162,10 +162,20 @@ footer {
   html {
     font-size: 60%;
   }
+
+  .section-2 img {
+    max-width: 34rem;
+    border-radius: 1.4rem;
+  }
 }
 @media (max-width: 768px) {
   html {
     font-size: 58%;
+  }
+
+  .section-2 img {
+    max-width: 32rem;
+    border-radius: 1.3rem;
   }
 }
 @media (max-width: 576px) {
@@ -174,5 +184,10 @@ footer {
   }
   .section-1 img {
     max-width: 36rem;
+  }
+
+  .section-2 img {
+    max-width: 30rem;
+    border-radius: 1.2rem;
   }
 }
