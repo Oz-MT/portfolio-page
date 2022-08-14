@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+}
+
+/* header */
+
+header {
+  text-align: center;
+  color: #333333;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+  background-color: #e2dfdf;
+}
+
+header h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  /* letter-spacing: 0.1rem; */
+}
+
+header h4 {
+  font-size: 2.4rem;
+}
+
+/* main */
+
+main .profile {
+  max-width: 16rem;
+  border-radius: 50%;
+  display: block;
+  margin: -8rem auto 0;
+  border: 1rem solid #fff;
+}
+
+main p {
+  font-size: 1.8rem;
+  text-align: center;
+  max-width: 100rem;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+main .icons {
+  text-align: center;
+  margin: 3.5rem 0 8rem 0;
+}
+
+main .icons a img {
+  max-width: 4rem;
+  display: inline-block;
+  margin: 0 1.5rem 0 1.5rem;
+}
+
+/* section-1 */
+
+.section-1 {
+  text-align: center;
+  background-color: #ddedff;
+  padding: 5rem 0;
+}
+
+.section-1 h2 {
+  font-size: 3.6rem;
+  color: #333333;
+}
+
+.section-1 img {
+  margin: 5.5rem 0;
+  max-width: 44rem;
+}
+
+.section-1 p {
+  font-size: 1.8rem;
+  text-align: center;
+  max-width: 100rem;
+  margin: auto;
+  margin-bottom: 5rem;
+}
+
+.section-1 button {
+  background-color: #1e90ff;
+  color: #fff;
+  padding: 0.6%;
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 1rem;
+}
